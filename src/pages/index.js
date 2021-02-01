@@ -1,5 +1,8 @@
 import React from "react"
+import { PricingSection } from "../components/PricingSection"
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return <div>
+    <PricingSection />
+  </div>
 }
